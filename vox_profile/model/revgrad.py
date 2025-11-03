@@ -1,9 +1,11 @@
-from revgrad_func import revgrad
-from torch.nn import Module
 from torch import tensor
+from torch.nn import Module
+
+from .revgrad_func import revgrad
+
 
 class RevGrad(Module):
-    def __init__(self, alpha=1., *args, **kwargs):
+    def __init__(self, alpha=1.0, *args, **kwargs):
         """
         A gradient reversal layer.
 
