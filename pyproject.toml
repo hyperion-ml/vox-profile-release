@@ -21,9 +21,8 @@ dependencies = [
   "torchvision>=0.19.0",
   "huggingface-hub>=0.31.4,<1.0",
   "loralib>=0.1.2",
-  "numpy>=1.24.4",
-  "sentencepiece>=0.2.0",
-  "speechbrain==1.0.3",
+  "numpy>=1.24.4,<2.0",
+  "sentencepiece>=0.2.0,<0.3",
   "transformers>=4.46.3,<5",
 ]
 
